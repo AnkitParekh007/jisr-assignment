@@ -81,5 +81,3 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-You can copy this markdown and save it as README.md in the root directory of your project. Adjust any details as needed to match your project setup.
