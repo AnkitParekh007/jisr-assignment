@@ -22,7 +22,7 @@ git clone https://github.com/your-username/react-file-explorer.git
 2. Navigate into the project directory:
 
 ```
-cd react-file-explorer
+cd jisr-assignment
 ```
 
 3. Install dependencies:
