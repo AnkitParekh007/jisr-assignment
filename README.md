@@ -16,7 +16,7 @@ This project is a simple file explorer component built using React. It allows us
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/react-file-explorer.git
+git clone [https://github.com/your-username/react-file-explorer.git](https://github.com/AnkitParekh007/jisr-assignment.git)
 ```
 
 2. Navigate into the project directory:
