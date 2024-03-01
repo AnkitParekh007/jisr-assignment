@@ -1,0 +1,120 @@
+.file-explorer {
+	margin-top: 1rem;
+	padding: 2rem;
+	border: 0.0625rem solid #ccc;
+	border-radius: 0.3125rem;
+}
+
+.search-input {
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 0.625rem;
+	border: 0.0625rem solid #ccc;
+	border-radius: 0.3125rem;
+	outline: none;
+}
+
+.search-input:focus {
+	border-color: #007aff;
+}
+
+.file-list-wrapper,
+.action-area {
+	overflow-y: auto;
+	max-height: 70vh;
+	min-height: 70vh;
+	width: calc(100% - 1rem);
+	border: 0.0625rem solid #e2dddd;
+	padding: 0 0 0 1rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.action-area{
+	width: calc(100% - 2rem);
+	margin: 0 1rem;
+	max-height: 75vh;
+	min-height: 75vh;
+}
+
+.file-list-wrapper ul {
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+.file-list-wrapper li {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.file-list-wrapper .folder-item {
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.file-list-wrapper .file-item {
+	display: flex;
+	align-items: center;
+}
+
+.file-list-wrapper .folder-item:hover,
+.file-list-wrapper .file-item:hover {
+	background-color: #cce4ff;
+}
+
+.file-list-wrapper .expander-icon {
+	margin-right: 0.25rem;
+	font-size: 0.75rem;
+}
+
+.file-list-wrapper .file-name {
+	margin-left: 0.625rem;
+}
+
+.file-list-wrapper .expanded {
+	display: block;
+}
+
+.file-list-wrapper .collapsed {
+	display: none;
+}
+
+.file-list-wrapper .active {
+	border: 0.0625rem solid #e2dddd;
+	background-color: #e6f7ff;
+}
+
+.context-menu {
+	position: fixed;
+	z-index: 999;
+	background-color: #fff;
+	border: 0.0625rem solid #ccc;
+	border-radius: 0.3125rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.context-menu-item {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	min-width: 9.375rem;
+}
+
+.context-menu-item:hover {
+	background-color: #f0f0f0;
+}
+
+#clear-log-btn{
+	float: right;
+    margin-right: 1rem;
+    border: 1px solid #aca2a2;
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    line-height: 1rem;
+    cursor: pointer;
+}
+#clear-log-btn:hover{
+	background-color: #007aff;
+	border: 1px solid #007aff;
+	color:#fff;
+}
+ 
