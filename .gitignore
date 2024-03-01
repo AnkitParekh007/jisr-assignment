@@ -1,1 +1,17 @@
-node_modules
+# Dependency directories
+/node_modules
+
+# Environment variables
+.env
+
+# Build files
+/build
+/dist
+
+# Editor directories and files
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
